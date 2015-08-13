@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name= "My Project" parallel="false">
+	
+	<test name="My Test Case 1" preserve-order="true" verbose="2" >
+    	<classes>
+           	<class name="test.java.com.bravo.sanitysuite.TestCase_2_CreatingQuote" />
+    	</classes>
+  	</test>
+  	
+  	<test name="My Test Case 2" preserve-order="true" verbose="2" >
+    	<classes>
+           	<class name="test.java.com.bravo.sanitysuite.TestCase_2_CreatingQuote" />
+    	</classes>
+  	</test>
+  	
+</suite>
